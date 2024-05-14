@@ -39,9 +39,8 @@ font-weight: bold;
 
 
 #sl1 {
-    height: 290px;
-    max-width: 100%;
-    width: 240px;
+    height: 265px;
+    width: 310px !important;
     margin-top: 75px;
     margin-right: 60px;
 
