@@ -4,7 +4,7 @@ import sl2 from './images/sl2.jpg';
 import sl3 from './images/sl3.jpg';
 import sl4 from './images/sl4.jpg';
 import sl5 from './images/sl5.jpg';
-import './body.css'
+import './carsl.css'
 
 function DarkVariantExample() {
   return (
@@ -75,6 +75,35 @@ function DarkVariantExample() {
         
       </Carousel.Item>
       <Carousel.Item>
+      <div className="contentsl2">
+            <h3 className='bla2'>Goods from Japan</h3>
+            <div className="texpp2">
+
+          <h2>
+          Musical Instruments
+<span>
+  <p>
+          Cheap musical instruments
+
+<span>
+  <p>
+          from Japanese makers:
+<span>
+  <p>
+          Yamaha, Roland, Akai, Korg, Komaki etc.
+    
+  </p>
+</span>
+    
+  </p>
+</span>
+  </p>
+</span>
+          </h2>
+            </div>
+        </div>
+
+
         <img
           className="d-block w-100"
           src={sl3}
