@@ -118,13 +118,16 @@ AMAZON
 </span>
   </p>
 </span>
-
 </p>
 
-
-
 </div>
 </div>
+
+        </div>
+        <div className="tabcont">
+          <div className="tabpan">
+            <h1>TEGMA AM!!!</h1>
+          </div>
 
         </div>
     </div>

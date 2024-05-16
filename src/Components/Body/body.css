@@ -143,3 +143,31 @@ font-size: 17px;
     font-weight: 800;
     font-size: 17px;
 }
+.tabcont {
+    width: 75%;
+    height: 943px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 610px;
+    position: absolute;
+    margin-left: 190px;
+    z-index: 2;
+}
+.tabpan {
+    width: 75%;
+    height: 855px;
+    margin-top: 84px;
+    background-color: red;
+    text-align: center;
+    position: relative;
+    color: #555;
+    font-family: 'Open Sans', sans-serif, 'Glyphicons Halflings';
+    z-index: 4;
+}
+.tabpan h1 {
+    color: black;
+    margin-top: 340px;
+}
