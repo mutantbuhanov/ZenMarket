@@ -9,59 +9,59 @@ import './carsl.css'
 function DarkVariantExample() {
   return (
     <Carousel data-bs-theme="dark">
-             <Carousel.Item>
-                <div className="dvv">
-                    <div className="sltex">
-                        <h1>Shop Exclusive Japanese Stores  </h1>
-                    </div>
-                    <div className="sltex2">
-                        <h3>
-                        Ready to discover millions of Japan-only products?
-                        <span>
-                            <p>Get products from Japan directly with no language barriers.</p>
-                        </span>
-                        </h3>
+      <Carousel.Item>
+        <div className="dvv">
+          <div className="sltex">
+            <h1>Shop Exclusive Japanese Stores  </h1>
+          </div>
+          <div className="sltex2">
+            <h3>
+              Ready to discover millions of Japan-only products?
+              <span>
+                <p>Get products from Japan directly with no language barriers.</p>
+              </span>
+            </h3>
 
-                        <h3 className='sltex3'>Over 1 Million parcels shipped worldwide.</h3>
+            <h3 className='sltex3'>Over 1 Million parcels shipped worldwide.</h3>
 
-                    </div>
+          </div>
 
-        <img
-          className="d-block w-100"
-          id='sl1'
-          src={sl1}
-          alt="Third slide"
-        />
+          <img
+            className="d-block w-100"
+            id='sl1'
+            src={sl1}
+            alt="Third slide"
+          />
 
-                </div>
-       
+        </div>
+
       </Carousel.Item>
       <Carousel.Item>
         <div className="contentsl">
-            <h3 className='bla'>Easier than mail forwarding!</h3>
-            <div className="texpp">
+          <h3 className='bla'>Easier than mail forwarding!</h3>
+          <div className="texpp">
 
-          <p>
-          - We will buy everything for you!
-          <span>
             <p>
-          - Easy sign up. No documents needed.
-          <span>
-            <p>
-          - Automatic translation.
-                
-          <span>
-            <p>
-          - We'll help you find things you want.
-                
+              - We will buy everything for you!
+              <span>
+                <p>
+                  - Easy sign up. No documents needed.
+                  <span>
+                    <p>
+                      - Automatic translation.
+
+                      <span>
+                        <p>
+                          - We'll help you find things you want.
+
+                        </p>
+                      </span>
+                    </p>
+                  </span>
+                </p>
+              </span>
             </p>
-          </span>
-            </p>
-          </span>
-            </p>
-          </span>
-          </p>
-            </div>
+          </div>
         </div>
 
 
@@ -72,36 +72,40 @@ function DarkVariantExample() {
           alt="First slide"
         />
 
-        
+
       </Carousel.Item>
       <Carousel.Item>
-      <div className="contentsl2">
-            <h3 className='bla2'>Goods from Japan</h3>
-            <div className="texpp2">
+        <div className="contentsl2">
+          <h3 className='bla2'>Goods from Japan</h3>
+          <div className="texpp2">
 
-          <h2>
-          Musical Instruments
-<span>
-  <p>
-          Cheap musical instruments
+            <h2>
+              Musical Instruments
+              <span>
+                <p>
+                  Cheap musical instruments
 
-<span>
-  <p>
-          from Japanese makers:
-<span>
-  <p>
-          Yamaha, Roland, Akai, Korg, Komaki etc.
-    
-  </p>
-</span>
-    
-  </p>
-</span>
-  </p>
-</span>
-          </h2>
-            </div>
+                  <span>
+                    <p>
+                      from Japanese makers:
+                      <span>
+                        <p>
+                          Yamaha, Roland, Akai, Korg, Komaki etc.
+
+                        </p>
+                      </span>
+
+                    </p>
+                  </span>
+                </p>
+              </span>
+            </h2>
+          </div>
         </div>
+
+
+
+
 
 
         <img
@@ -109,23 +113,77 @@ function DarkVariantExample() {
           src={sl3}
           alt="Second slide"
         />
-    
+
       </Carousel.Item>
       <Carousel.Item>
+
+        <div className="contentsl3">
+          <h3 className='bla3'>Japanese goods</h3>
+          <div className="texpp3">
+
+            <h2>
+              Cameras
+              <span>
+                <p>
+                  Japanese Cameras <br />
+                  Nikon, Canon, Sony, Olympus
+
+                  {/* <span>
+                    <p>
+                      from Japanese makers:
+                      <span>
+                        <p>
+                          Yamaha, Roland, Akai, Korg, Komaki etc.
+
+                        </p>
+                      </span>
+
+                    </p>
+                  </span> */}
+                </p>
+              </span>
+            </h2>
+          </div>
+        </div>
+
+
+
+
         <img
           className="d-block w-100"
           src={sl4}
           alt="Third slide"
         />
-       
+
       </Carousel.Item>
       <Carousel.Item>
+
+
+      <div className="contentsl4">
+          <h3 className='bla4'>Products from Japan</h3>
+          <div className="texpp4">
+
+            <h2>
+              Fishing
+              <span>
+                <p>
+                Fishing rods, reels and accessories <br />
+                from Shimano, Daiwa, etc.
+
+              
+                </p>
+              </span>
+            </h2>
+          </div>
+        </div>
+
+
         <img
           className="d-block w-100"
           src={sl5}
           alt="Fourth slide"
         />
-      
+
       </Carousel.Item>
     </Carousel>
   );

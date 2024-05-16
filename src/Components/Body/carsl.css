@@ -132,3 +132,75 @@ font-size: small;
     line-height: normal;
     padding-left: 8px;
 }
+
+.contentsl3 {
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 520px;
+    height: 190px;
+    margin-left: 40px;
+   margin-top: 220px;
+    position: relative;
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+
+.bla3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-top: 35px;
+    margin-left: 43px;
+    margin-right: 280px;
+    background-color: black;
+    line-height: normal;
+    padding-left: 8px;
+}
+
+.texpp3  p{
+    font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        width: 300px;
+    
+    }
+    .texpp3 {
+        margin-left: 40px;
+    }
+
+
+.contentsl4 {
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 520px;
+    height: 190px;
+    margin-left: 40px;
+   /* margin-top: 220px; */
+    position: relative;
+    z-index: 2;
+    position: absolute;
+    color: white;
+}
+
+.bla4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-top: 35px;
+    margin-left: 43px;
+    margin-right: 240px;
+    background-color: black;
+    line-height: normal;
+    padding-left: 8px;
+}
+
+.texpp4  p{
+    font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        width: 300px;
+    
+    }
+    .texpp4 {
+        margin-left: 40px;
+    }
+
+
+
