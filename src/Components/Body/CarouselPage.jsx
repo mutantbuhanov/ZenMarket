@@ -8,7 +8,7 @@ import './carsl.css'
 
 function DarkVariantExample() {
   return (
-    <Carousel data-bs-theme="dark">
+    <Carousel data-bs-theme="dark" id='carousell'>
              <Carousel.Item>
                 <div className="dvv">
                     <div className="sltex">
