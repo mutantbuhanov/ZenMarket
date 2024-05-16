@@ -101,12 +101,14 @@
     text-decoration: none;
     border: none;
     width: 400px;
+    background-color: #fff;
 }
 .b1 {
     background-color: rgb(233, 233, 233);
     height: 50px;
     border-radius: 0;
     width: 50px;
+    color: black;
 }
 .b1:hover {
     background-color: rgb(41, 41, 41);
