@@ -9,18 +9,18 @@ import './carsl.css'
 function DarkVariantExample() {
   return (
     <Carousel data-bs-theme="dark">
-      <Carousel.Item>
-        <div className="dvv">
-          <div className="sltex">
-            <h1>Shop Exclusive Japanese Stores  </h1>
-          </div>
-          <div className="sltex2">
-            <h3>
-              Ready to discover millions of Japan-only products?
-              <span>
-                <p>Get products from Japan directly with no language barriers.</p>
-              </span>
-            </h3>
+             <Carousel.Item>
+                <div className="dvv">
+                    <div className="sltex">
+                        <h1>Shop Exclusive Japanese Stores  </h1>
+                    </div>
+                    <div className="sltex2">
+                        <h3>
+                        Ready to discover millions of Japan-only products?
+                        <span>
+                            <p>Get products from Japan directly with no language barriers.</p>
+                        </span>
+                        </h3>
 
             <h3 className='sltex3'>Over 1 Million parcels shipped worldwide.</h3>
 
