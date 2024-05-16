@@ -4,3 +4,142 @@
     background-color: beige;
     position: absolute;
 }
+.info1 {
+width: 75%;
+height: 203px;
+background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+background-image: url(https://zenmarket.jp/en/img/tweed.png);
+background-position: center top;
+background-repeat: repeat;
+text-transform: uppercase;
+}
+.textrow1 {
+    position: relative;
+    min-height: 1px;
+    height: 129px;
+   width: 200px;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    border-right: 1px dashed #777;
+    
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ddd;
+    margin-top: 0px;
+    margin-right: 965px;
+    z-index: 2;
+    position: absolute;
+}
+#tt1 {
+font-weight: 800;
+font-size: 17px;
+}
+#tt2 {
+    font-size: 13px;
+    padding-top: -25px;
+}
+#tt3 {
+    font-size: 47px;
+    line-height: 35px;
+    margin-top: -15px;
+}
+#tt4 {
+    font-size: 11px;
+    padding-top: 5px;
+    margin-top: -18px;
+}
+#ahr {
+    color: #ddd;
+    font-size: 11px;
+    padding-top: 5px;
+    margin-top: -15px;
+    text-decoration: underline;
+    
+}
+.textrow2 {
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    border-right: 1px dashed #777;
+    width: 240px;
+    height: 119px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ddd;
+    margin-right: 500px;
+    position: absolute;
+}
+
+#tb1 {
+    font-weight: 800;
+    font-size: 17px;
+    }
+    
+
+.textrow3 {
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    border-right: 1px dashed #777;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ddd;
+    padding: 0 15px;
+    width: 300px;
+    height: 129px;
+    margin-left: 30px;
+    position: absolute;
+
+}
+#tc1 {
+    font-weight: 800;
+    font-size: 17px;
+}
+.textrow4 {
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    border-right: 1px dashed #777;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ddd;
+    padding: 0 15px;
+    width: 300px;
+    height: 129px;
+    margin-left: 515px;
+    width: 200px;
+    height: 139px;
+    position: absolute;
+}
+#td1 {
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.textrow5 {
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ddd;
+    padding: 0 15px;
+    margin-left: 915px;
+    width: 200px;
+    height: 139px;
+    position: absolute;
+}
+#te1 {
+    font-weight: 800;
+    font-size: 17px;
+}
