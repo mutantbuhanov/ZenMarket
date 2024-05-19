@@ -3,7 +3,7 @@ import './body.css'
 import Carrousel from './CarouselPage.jsx'
 import bkg from './images/tweed.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faMagnifyingGlass, faPlus, faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faClipboardList, faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
 
 const Body = () => {
@@ -129,6 +129,8 @@ AMAZON
         </div>
         <div className="tabcont">
           <div className="tabpan">
+            <div className="nmd">
+
           <div data-aos="zoom-in">
             <div className="conti1">
           <FontAwesomeIcon icon={faCartShopping} />
@@ -141,6 +143,12 @@ AMAZON
               <p id='ncp'>Add item URLs to your Cart from any online Japanese 
                 <br />
                 shop and place your order.</p>
+            </div>
+            </div>
+            <div data-aos="zoom-in">
+            <div className="conti2">
+            <FontAwesomeIcon icon={faClipboardList} />
+        </div>
             </div>
             </div>
           </div>
