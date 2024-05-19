@@ -134,6 +134,15 @@ AMAZON
           <FontAwesomeIcon icon={faCartShopping} />
         </div>
             </div>
+            <div data-aos="fade-right">
+              
+            <div className="crd1">
+              <p id='cap'>Add items to the cart</p>
+              <p id='ncp'>Add item URLs to your Cart from any online Japanese 
+                <br />
+                shop and place your order.</p>
+            </div>
+            </div>
           </div>
 
         </div>

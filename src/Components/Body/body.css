@@ -181,3 +181,25 @@ font-size: 17px;
      margin-top: 45px;
      color: white;
 }
+.crd1 {
+    width: 467px;
+    height: 124px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: -58px;
+    margin-left: 30px;
+}
+.crd1 p {
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+}
+.crd1 #cap {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+}
+#ncp {
+    margin-top: -33px;
+}
