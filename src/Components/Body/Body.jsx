@@ -2,6 +2,9 @@ import React from 'react'
 import './body.css'
 import Carrousel from './CarouselPage.jsx'
 import bkg from './images/tweed.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faMagnifyingGlass, faPlus, faCartShopping } from '@fortawesome/free-solid-svg-icons'
+
 
 const Body = () => {
   return (
@@ -126,7 +129,11 @@ AMAZON
         </div>
         <div className="tabcont">
           <div className="tabpan">
-            <h1>TEGMA AM!!!</h1>
+          <div data-aos="zoom-in">
+            <div className="conti1">
+          <FontAwesomeIcon icon={faCartShopping} />
+        </div>
+            </div>
           </div>
 
         </div>

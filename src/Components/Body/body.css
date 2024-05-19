@@ -157,17 +157,27 @@ font-size: 17px;
     z-index: 2;
 }
 .tabpan {
-    width: 75%;
-    height: 855px;
-    margin-top: 84px;
-    background-color: red;
+    width: 97%;
+    height: 835px;
+    margin-top: 107px;
+    background-color: #e6f5f9;
     text-align: center;
     position: relative;
     color: #555;
     font-family: 'Open Sans', sans-serif, 'Glyphicons Halflings';
     z-index: 4;
 }
-.tabpan h1 {
-    color: black;
-    margin-top: 340px;
+.conti1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #75ce66;
+     border: 4px solid white;
+     font-size: 25px;
+     margin-top: 45px;
+     color: white;
 }
