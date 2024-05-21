@@ -204,6 +204,7 @@ font-size: 17px;
 }
 #ncp {
     margin-top: -33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nmd {
     display: flex;
@@ -232,4 +233,118 @@ font-size: 17px;
      color: white;
      position: absolute;
      margin-left: -35px;
+}
+
+.crd2 {
+    width: 441px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: -250px;
+    margin-left: 55px;
+    position: absolute;
+}
+.crd2 #cap {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.crd2 p {
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+}
+
+.crd2 #ncp {
+    margin-top: -40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conti3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #c03b44;
+     border: 4px solid white;
+     font-size: 30px;
+     margin-top: -160px;
+     color: white;
+     position: absolute;
+     margin-left: -35px;
+}
+.crd3 {
+    width: 441px;
+    height: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: -155px;
+    margin-left: -495px;
+    position: absolute;
+}
+.crd3 #cap {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.crd3 p {
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+}
+
+.crd3 #ncp {
+    margin-top: -40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conti4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #f0ca45;
+     border: 4px solid white;
+     font-size: 30px;
+     margin-top: -65px;
+     color: white;
+     position: absolute;
+     margin-left: -35px;
+}
+
+.crd4 {
+    width: 441px;
+    height: 142px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: -57px;
+    margin-left: 55px;
+    position: absolute;
+}
+.crd4 #cap {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.crd4 p {
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+}
+
+.crd4 #ncp {
+    margin-top: -40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

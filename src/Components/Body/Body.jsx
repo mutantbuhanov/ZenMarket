@@ -3,7 +3,7 @@ import './body.css'
 import Carrousel from './CarouselPage.jsx'
 import bkg from './images/tweed.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faClipboardList, faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faClipboardList, faCartShopping, faCreditCard,faClock } from '@fortawesome/free-solid-svg-icons'
 
 
 const Body = () => {
@@ -150,6 +150,50 @@ AMAZON
             <FontAwesomeIcon icon={faClipboardList} />
         </div>
             </div>
+            <div data-aos="fade-left">
+              
+              <div className="crd2">
+                <p id='cap'>Get a quote</p>
+                <p id='ncp'>ZenMarket will confirm item prices and their availability.
+                  </p>
+              </div>
+              </div>
+
+              <div data-aos="zoom-in">
+            <div className="conti3">
+            <FontAwesomeIcon icon={faCreditCard} />
+        </div>
+            </div>
+            <div data-aos="fade-right">
+              
+              <div className="crd3">
+                <p id='cap'>Pay for items</p>
+                <p id='ncp'>Once prices are confirmed you can pay for your items.
+                  </p>
+              </div>
+              </div>
+
+              <div data-aos="zoom-in">
+            <div className="conti4">
+            <FontAwesomeIcon icon={faClock} />
+        </div>
+            </div>
+            <div data-aos="fade-left">
+              
+              <div className="crd4">
+                <p id='cap'>Wait a couple of days</p>
+                <p id='ncp'>ZenMarket will order your items from the shop you 
+                <br />
+                selected. Then we will wait for your items to be
+                <br />
+                delivered to our warehouse.
+                  </p>
+              </div>
+              </div>
+
+
+
+
             </div>
           </div>
 
