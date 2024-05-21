@@ -162,7 +162,7 @@ font-size: 17px;
     margin-top: 107px;
     background-color: #e6f5f9;
     text-align: center;
-    position: relative;
+    position: absolute;
     color: #555;
     font-family: 'Open Sans', sans-serif, 'Glyphicons Halflings';
 }
@@ -213,7 +213,7 @@ font-size: 17px;
     margin-top: 55px;
     height: 760px;
     z-index: -1;
-    width: 2px;
+    width: 3px;
     background-color: #c9dce1;
 }
 
