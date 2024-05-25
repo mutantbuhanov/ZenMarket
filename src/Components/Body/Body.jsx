@@ -3,7 +3,7 @@ import './body.css'
 import Carrousel from './CarouselPage.jsx'
 import bkg from './images/tweed.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faClipboardList, faCartShopping, faCreditCard,faClock } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faClipboardList, faCartShopping, faCreditCard,faClock,faPlaneUp,faGift } from '@fortawesome/free-solid-svg-icons'
 
 
 const Body = () => {
@@ -128,6 +128,9 @@ AMAZON
 
         </div>
         <div className="tabcont">
+        <div className="conttext">
+          
+        </div>
           <div className="tabpan">
             <div className="nmd">
 
@@ -191,6 +194,59 @@ AMAZON
               </div>
               </div>
 
+              <div data-aos="zoom-in">
+            <div className="conti5">
+            <FontAwesomeIcon icon={faPlaneUp} />
+        </div>
+            </div>
+
+            <div data-aos="fade-right">
+              
+              <div className="crd5">
+                <p id='cap'>Specify shipping details</p>
+                <p id='ncp'>Once items arrive at the warehouse, specify the
+                <br />
+                shipping method and your address.
+                  </p>
+              </div>
+              </div>
+
+              <div data-aos="zoom-in">
+            <div className="conti6">
+            <FontAwesomeIcon icon={faCreditCard} />
+        </div>
+            </div>
+            <div data-aos="fade-left">
+              
+              <div className="crd6">
+                <p id='cap'>Pay for shipping</p>
+                <p id='ncp'>Once the parcel has been weighed, you can pay for
+                <br />
+                international shipping.
+                  </p>
+              </div>
+              </div>
+
+              
+              <div data-aos="zoom-in">
+            <div className="conti7">
+            <FontAwesomeIcon icon={faGift} />
+        </div>
+            </div>
+
+            <div data-aos="fade-right">
+              
+              <div className="crd7">
+                <p id='cap'>Get your parcel delivered</p>
+                <p id='ncp'>Wait 1-2 weeks for the parcel to get delivered to your
+                <br />
+                address.
+                  </p>
+              </div>
+              </div>
+
+              
+
 
 
 
@@ -199,6 +255,7 @@ AMAZON
 
         </div>
     </div>
+
   )
 }
 
