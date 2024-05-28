@@ -129,6 +129,15 @@ AMAZON
         </div>
         <div className="tabcont">
         <div className="conttext">
+          <ul className='navtabs'>
+            <li class="active"><a href="#">
+              
+                <h2>How to buy from online marketplaces via 
+                  <br />
+                  ZenMarket</h2>
+                </a></li>
+            <li><a href="#"></a></li>
+          </ul>
           
         </div>
           <div className="tabpan">
@@ -244,16 +253,15 @@ AMAZON
                   </p>
               </div>
               </div>
-
-              
-
-
-
-
             </div>
           </div>
 
         </div>
+          <div className="faxcont">
+            <h1>KAMPIR VAZIFANI QIL!</h1>
+          </div>
+
+          
     </div>
 
   )

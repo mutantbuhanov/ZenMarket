@@ -1,13 +1,12 @@
 .bodyy {
     width: 100%;
-    height: 2000px;
-    background-color: beige;
+    height: 3000px;
+    background: url(https://zenmarket.jp/img/halftone.png) repeat scroll 0 0 transparent;
     position: absolute;
 }
 .info1 {
 width: 75%;
 height: 203px;
-background-color: red;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -459,4 +458,80 @@ font-size: 17px;
     font-size: 20px;
     font-weight: bold;
     font-family: inherit;
+}
+
+
+.navtabs {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.navtabs li {
+    float: left;
+    position: relative;
+    display: block;
+    width: 58%;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-left: -20px;
+}
+.navtabs li.active {
+    background-color: #E9F0F5;
+}
+.navtabs li.active a {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+
+}
+.navtabs li a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+.navtabs li.active a h2 {
+    font-weight: bold;
+    color: #555;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 28px;
+}
+.navtabs li a h2 {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 28px;
+    color: #959595;
+}
+.conttext {
+    margin-top: -930px;
+    z-index: 3;
+    width: 1400px;
+    margin-right: 150px;
+}
+
+.faxcont {
+    width: 75%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    margin-top: 1653px;
+    margin-left: 190px;
+}
+.faxcont h1 {
+    text-align: center;
 }
