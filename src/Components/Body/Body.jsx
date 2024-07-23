@@ -313,6 +313,16 @@ const Body = () => {
       </div>
 
 
+      <div className="colcont">
+
+</div>
+
+
+<div className="kampirkot">
+  
+</div>
+
+
     </div>
 
   )
