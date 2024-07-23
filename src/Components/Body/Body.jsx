@@ -2,7 +2,7 @@ import React from 'react'
 import './body.css'
 import Carrousel from './CarouselPage.jsx'
 import bkg from './images/tweed.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faClipboardList, faCartShopping, faCreditCard, faClock, faPlaneUp, faGift, faHandHoldingDollar, faGavel, faBagShopping, faStar, faTruckFast } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -312,18 +312,9 @@ const Body = () => {
 
       </div>
 
-
-      {/* Kamron davom etiryapti */}
-
-
-      <div className="lazizz">
-      
-      </div>
-
-
-
       {/* kamron tugati */}
 
+      
 
     </div>
 
