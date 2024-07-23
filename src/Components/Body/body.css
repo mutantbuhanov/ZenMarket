@@ -785,27 +785,3 @@
     text-align: center;
     margin-top: 73px;
 }
-.colcont {
-    background: url(https://zenmarket.jp/img/shopbg.jpg) repeat scroll center center transparent;
-    position: absolute;
-    z-index: 5;
-    width: 75%;
-    height: 400px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    margin-top: 2078px;
-    margin-left: 190px;
-
-}
-.kampirkot {
-    height: 580px;
-    width: 75%;
-    background-color: white;
-    position: absolute;
-    margin-top: 2478px;
-    margin-left: 190px;
-    
-}
-
-

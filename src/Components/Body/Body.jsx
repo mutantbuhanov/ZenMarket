@@ -312,19 +312,6 @@ const Body = () => {
 
       </div>
 
-      {/* kamron tugati */}
-
-      
-
-<div className="colcont">
-
-</div>
-
-
-<div className="kampirkot">
-  
-</div>
-
 
     </div>
 
