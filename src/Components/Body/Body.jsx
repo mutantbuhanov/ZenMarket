@@ -2,8 +2,8 @@ import React from 'react'
 import './body.css'
 import Carrousel from './CarouselPage.jsx'
 import bkg from './images/tweed.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faClipboardList, faCartShopping, faCreditCard, faClock, faPlaneUp, faGift, faHandHoldingDollar,faGavel,faBagShopping,faStar,faTruckFast } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faClipboardList, faCartShopping, faCreditCard, faClock, faPlaneUp, faGift, faHandHoldingDollar, faGavel, faBagShopping, faStar, faTruckFast } from '@fortawesome/free-solid-svg-icons'
 
 
 const Body = () => {
@@ -258,7 +258,7 @@ const Body = () => {
 
       </div>
 
-{/* Kamroni vazifasi boshlandi */}
+      {/* Kamroni vazifasi boshlandi */}
 
       <div className="faxcont">
         <h2>Why choose ZenMarket?</h2>
@@ -267,9 +267,9 @@ const Body = () => {
           <div className="icco1">
             <FontAwesomeIcon icon={faHandHoldingDollar} />
           </div>
-            <h2 id='ptp'>TRANSPARENT FEE <br /> STRUCTURE</h2>
-            <p id='pp'>We charge a flat fee of <br /> just 500 yen per unique <br /> item or lot.</p>
-            <li className='mia'><a href="#">more info</a></li>
+          <h2 id='ptp'>TRANSPARENT FEE <br /> STRUCTURE</h2>
+          <p id='pp'>We charge a flat fee of <br /> just 500 yen per unique <br /> item or lot.</p>
+          <li className='mia'><a href="#">more info</a></li>
         </div>
 
 
@@ -284,7 +284,7 @@ const Body = () => {
 
         <div className="carddd3">
           <div className="icco3">
-           <FontAwesomeIcon icon={faBagShopping}/>
+            <FontAwesomeIcon icon={faBagShopping} />
           </div>
           <h2 id='ttp'>ONE CART FOR<br />ALL YOUR<br />SHOPPING</h2>
           <p id='up'>Shop from multiple<br />Japanese stores and<br />manage your orders all <br /> from your ZenMarket <br /> account.</p>
@@ -293,7 +293,7 @@ const Body = () => {
 
         <div className="carddd4">
           <div className="icco4">
-          <FontAwesomeIcon icon={faStar} />
+            <FontAwesomeIcon icon={faStar} />
           </div>
           <h2 id='ppp'>LOYALTY<br />PROGRAM<br />REWARDS</h2>
           <p id='pl'>Earn benefits such as <br /> buying on credit & <br /> getting cashback on all <br /> shipped items.</p>
@@ -303,7 +303,7 @@ const Body = () => {
 
         <div className="carddd5">
           <div className="icco5">
-          <FontAwesomeIcon icon={faTruckFast} />
+            <FontAwesomeIcon icon={faTruckFast} />
           </div>
           <h2 id='lp'>SAVE ON <br /> INTERNATIONAL <br /> SHIPPING</h2>
           <p id='llp'>Combine orders from <br /> multiple Japanese stores <br /> into one parcel for free <br /> to save on <br /> shipping fees.</p>
@@ -311,6 +311,19 @@ const Body = () => {
 
 
       </div>
+
+      {/* kamron tugati */}
+
+      
+
+<div className="colcont">
+
+</div>
+
+
+<div className="kampirkot">
+  
+</div>
 
 
     </div>

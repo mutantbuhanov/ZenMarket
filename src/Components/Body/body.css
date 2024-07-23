@@ -1,8 +1,9 @@
 .bodyy {
     width: 100%;
-    height: 3000px;
+    height: 4000px;
     background: url(https://zenmarket.jp/img/halftone.png) repeat scroll 0 0 transparent;
     position: absolute;
+   
 }
 
 .info1 {
@@ -27,7 +28,6 @@
     display: block;
     unicode-bidi: isolate;
     border-right: 1px dashed #777;
-
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -586,40 +586,38 @@
 
 
 
-.carddd1 
-{
+.carddd1 {
     width: 200px;
     height: 220px;
     margin-top: 20px;
     margin-left: 10px;
 }
-.carddd2
-{
+
+.carddd2 {
     width: 200px;
     height: 234px;
     margin-top: 34px;
 }
-.carddd3
-{
-    width: 210px;
-    height: 270px;
-    margin-top: 70px;
-}
-.carddd4
-{
-    width: 210px;
-    height: 260px;
-    margin-top: 60px;
-}
-.carddd5
-{
+
+.carddd3 {
     width: 210px;
     height: 270px;
     margin-top: 70px;
 }
 
-.icco1 
-{
+.carddd4 {
+    width: 210px;
+    height: 260px;
+    margin-top: 60px;
+}
+
+.carddd5 {
+    width: 210px;
+    height: 270px;
+    margin-top: 70px;
+}
+
+.icco1 {
     width: 70px;
     height: 70px;
     background-color: #5fa7f2;
@@ -631,8 +629,8 @@
     color: white;
     margin-top: 8px;
 }
-.icco2 
-{
+
+.icco2 {
     width: 70px;
     height: 70px;
     background-color: #5fa7f2;
@@ -644,8 +642,8 @@
     color: white;
     margin-top: 8px;
 }
-.icco3 
-{
+
+.icco3 {
     width: 70px;
     height: 70px;
     background-color: #5fa7f2;
@@ -657,8 +655,8 @@
     color: white;
     margin-top: 8px;
 }
-.icco4 
-{
+
+.icco4 {
     width: 70px;
     height: 70px;
     background-color: #5fa7f2;
@@ -670,8 +668,8 @@
     color: white;
     margin-top: 8px;
 }
-.icco5 
-{
+
+.icco5 {
     width: 70px;
     height: 70px;
     background-color: #5fa7f2;
@@ -683,8 +681,8 @@
     color: white;
     margin-top: 8px;
 }
-#ptp
-{
+
+#ptp {
     color: black;
     font-size: 17px;
     font-weight: 700;
@@ -694,24 +692,24 @@
     /* width: 200px; */
 
 }
-#pp
-{
+
+#pp {
     color: black;
     font-size: 13px;
     text-align: center;
     margin-top: 55px;
 }
-.mia
-{
+
+.mia {
     list-style: none;
     margin-top: -20px;
     margin-left: 70px;
     font-size: 13px;
     color: #08c;
+    text-decoration: underline;
 }
 
-#ptt
-{
+#ptt {
     color: black;
     font-size: 16px;
     font-weight: 700;
@@ -720,15 +718,15 @@
     text-align: center;
     /* width: 200px; */
 }
-#ap
-{
+
+#ap {
     color: black;
     font-size: 13px;
     text-align: center;
     margin-top: 70px;
 }
-#ttp
-{
+
+#ttp {
     color: black;
     font-size: 16px;
     font-weight: 700;
@@ -737,15 +735,15 @@
     text-align: center;
     /* width: 200px; */
 }
-#up
-{
+
+#up {
     color: black;
     font-size: 13px;
     text-align: center;
     margin-top: 75px;
 }
-#ppp
-{
+
+#ppp {
     color: black;
     font-size: 16px;
     font-weight: 700;
@@ -754,23 +752,24 @@
     text-align: center;
     /* width: 200px; */
 }
-#pl
-{
+
+#pl {
     color: black;
     font-size: 13px;
     text-align: center;
     margin-top: 75px;
 }
-#mia
-{
+
+#mia {
     list-style: none;
     margin-top: -20px;
     margin-left: 78px;
     font-size: 13px;
     color: #08c;
+    text-decoration: underline;
 }
-#lp
-{
+
+#lp {
     color: black;
     font-size: 16px;
     font-weight: 700;
@@ -779,10 +778,34 @@
     text-align: center;
     /* width: 200px; */
 }
-#llp
-{
+
+#llp {
     color: black;
     font-size: 13px;
     text-align: center;
     margin-top: 73px;
 }
+.colcont {
+    background: url(https://zenmarket.jp/img/shopbg.jpg) repeat scroll center center transparent;
+    position: absolute;
+    z-index: 5;
+    width: 75%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 2078px;
+    margin-left: 190px;
+
+}
+.kampirkot {
+    height: 580px;
+    width: 75%;
+    background-color: white;
+    position: absolute;
+    margin-top: 2478px;
+    margin-left: 190px;
+    
+}
+
+
